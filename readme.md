@@ -1,10 +1,11 @@
 # CSS Flexbox cheatsheet
 
-Dave Everitt, updated 16 Feb 2017
+Dave Everitt, updated 16 Feb 2017  
+[GitHub repository](https://github.com/DaveEveritt/flexbox-cheatsheet), [HTML version](https://daveeveritt.github.io/flexbox-cheatsheet/ "Thanks, Dillinger.io").
 
-A one-stop flexbox reference, maintained in Markdown but prettified and exported to HTML by [Dillinger.io](http://dillinger.io/). See the pretty [flexbox cheatsheet here](https://daveeveritt.github.io/flexbox-cheatsheet/).
+**Caution:** Flexbox has [bugs in Internet Explorer 11](http://caniuse.com/#feat=flexbox "caniuse flexbox"), but is fully supported in Edge and all other modern browsers.
 
-Try the CSS game [Flexbox Defence](http://www.flexboxdefense.com/).
+## Flexbox basics, as simple as possible
 
 The following CSS rules go inside a flex container, displayed as either a block [`display: flex;`](http://www.w3schools.com/cssref/css3_pr_flex.asp) (the the example at bottom) or inline-block element `display: inline-flex;`.
 
@@ -36,3 +37,7 @@ The following CSS rules go inside a flex container, displayed as either a block 
       align-items: flex-start;
       flex-direction: column;
     }
+
+## Recommended
+
+Try the online CSS game [Flexbox Defence](http://www.flexboxdefense.com/).

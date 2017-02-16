@@ -1,6 +1,6 @@
 # CSS Flexbox cheatsheet
 
-A one-stop flexbox reference, maintained in Markdown but prettified and exported to HTML by [Dillinger.io](http://dillinger.io/).
+A one-stop flexbox reference, maintained in Markdown but prettified and exported to HTML by [Dillinger.io](http://dillinger.io/). See the pretty [flexbox cheatsheet here](https://daveeveritt.github.io/flexbox-cheatsheet/).
 
 Try the CSS game [Flexbox Defence](http://www.flexboxdefense.com/).
 

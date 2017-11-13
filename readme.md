@@ -1,15 +1,16 @@
 # CSS Flexbox cheatsheet
 
 Dave Everitt, updated 16 Feb 2017  
-[GitHub repository](https://github.com/DaveEveritt/flexbox-cheatsheet), [HTML version](https://daveeveritt.github.io/flexbox-cheatsheet/ "Thanks, Dillinger.io").
+[GitHub repository](https://github.com/DaveEveritt/flexbox-cheatsheet), [styled HTML version](https://daveeveritt.github.io/flexbox-cheatsheet/ "Thanks, Dillinger.io").
 
-**Caution:** Flexbox has [bugs in Internet Explorer 11](http://caniuse.com/#feat=flexbox "caniuse flexbox"), but is fully supported in Edge and all other modern browsers.
+Flexbox is fully supported in all modern browsers, including Microsoft Edge.
 
 ## Flexbox basics, as simple as possible
 
-The following CSS rules go inside a flex container, displayed as either a block [`display: flex;`](http://www.w3schools.com/cssref/css3_pr_flex.asp) (the the example at bottom) or inline-block element `display: inline-flex;`.
+The following CSS rules go inside a **flex container** (the element *containing the boxes to be aligned*). The **flex container** can be either a block or inline-block—[`display: flex;` or `display: inline-flex;`](http://www.w3schools.com/cssref/css3_pr_flex.asp)—element.
 
 ## `justify-content:`
+
 - `flex-start` group items to left (the start) of container
 - `flex-end` group items to right of container
 - `center` group items in the center of a container
@@ -17,6 +18,7 @@ The following CSS rules go inside a flex container, displayed as either a block 
 - `space-around` distribute and space items equally
 
 ## `align-items:` and `align-self:`
+
 - `flex-start` across top
 - `flex-end` across bottom
 - `center` in center
@@ -24,6 +26,7 @@ The following CSS rules go inside a flex container, displayed as either a block 
 - `stretch` space items or stretch item to fill
 
 ## `flex-direction:`
+
 - `row` left to right
 - `row-reverse` right to left
 - `column` top to bottom
@@ -31,13 +34,16 @@ The following CSS rules go inside a flex container, displayed as either a block 
 
 ## Example
 
+```css
     .my-class {
       display: flex;
       justify-content: space-around;
       align-items: flex-start;
       flex-direction: column;
     }
+```
 
 ## Recommended
 
-Try the online CSS game [Flexbox Defence](http://www.flexboxdefense.com/).
+- Try the online CSS game [Flexbox Defence](http://www.flexboxdefense.com/).
+- [Flexbox bugs in Internet Explorer 11](http://caniuse.com/#feat=flexbox "caniuse flexbox").

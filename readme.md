@@ -1,6 +1,7 @@
 # CSS Flexbox cheatsheet
 
-Dave Everitt, updated 16 Feb 2017  
+Dave Everitt, updated 13 Nov 2017
+
 [GitHub repository](https://github.com/DaveEveritt/flexbox-cheatsheet), [styled HTML version](https://daveeveritt.github.io/flexbox-cheatsheet/ "Thanks, Dillinger.io").
 
 Flexbox is fully supported in all modern browsers, including Microsoft Edge.

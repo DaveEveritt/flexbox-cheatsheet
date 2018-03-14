@@ -46,5 +46,7 @@ The following CSS rules go inside a **flex container** (the element *containing 
 
 ## Recommended
 
-- Try the online CSS game [Flexbox Defence](http://www.flexboxdefense.com/).
-- [Flexbox bugs in Internet Explorer 11](http://caniuse.com/#feat=flexbox "caniuse flexbox").
+- Try the online CSS game [Flexbox Defence](http://www.flexboxdefense.com/)
+- [Dive Into Flexbox (Greg Smith)](https://bocoup.com/blog/dive-into-flexbox)
+- [A Complete Guide to Flexbox (Chris Coyier)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [CanIuse: see flexbox browser support (IE11 bugs)](http://caniuse.com/#feat=flexbox)

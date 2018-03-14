@@ -1,6 +1,6 @@
 # CSS Flexbox cheatsheet
 
-Dave Everitt, updated 13 Nov 2017
+Dave Everitt, updated 14 Mar 2018
 
 [GitHub repository](https://github.com/DaveEveritt/flexbox-cheatsheet), [styled HTML version](https://daveeveritt.github.io/flexbox-cheatsheet/ "Thanks, Dillinger.io").
 

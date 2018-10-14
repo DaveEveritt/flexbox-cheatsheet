@@ -12,21 +12,19 @@
 </style>
 </head>
 <body style="padding: 1em">
-<article class="markdown-body entry-content" itemprop="text"><h1><a href="#css-flexbox-cheatsheet" aria-hidden="true" class="anchor" id="user-content-css-flexbox-cheatsheet"></a>CSS Flexbox cheatsheet</h1>
-<p>Dave Everitt, updated 14 Mar 2018<br/>
-<a href="https://github.com/DaveEveritt/flexbox-cheatsheet">GitHub repository</a>, <a href="https://daveeveritt.github.io/flexbox-cheatsheet/" title="Thanks, Dillinger.io">styled HTML version</a>.</p>
-<h2><a href="#flexbox-basics-as-simple-as-possible" aria-hidden="true" class="anchor" id="user-content-flexbox-basics-as-simple-as-possible"></a>Flexbox basics, as simple as possible</h2>
-<p>Flexbox is fully supported in all modern browsers, including Microsoft Edge.</p>
-<p>The following CSS rules go inside a <strong>flex container</strong> (the element <em>containing the boxes to be aligned</em>). The <strong>flex container</strong> can be either a block or inline-block—<a href="http://www.w3schools.com/cssref/css3_pr_flex.asp"><code>display: flex;</code> or <code>display: inline-flex;</code></a>—element.</p>
-<h2><a href="#justify-content" aria-hidden="true" class="anchor" id="user-content-justify-content"></a><code>justify-content:</code></h2>
+<article class="markdown-body entry-content" itemprop="text">
+<h1><a id="CSS_Flexbox_cheatsheet_0"></a>CSS Flexbox cheatsheet</h1>
+<p>The following CSS rules go inside a <strong>flex container</strong> (the element <em>containing the boxes to be aligned</em>).</p>
+<p>The <strong>flex container</strong> can be either a <a href="http://www.w3schools.com/cssref/css3_pr_flex.asp">block or inline-block</a> element: <code>display: flex;</code> or <code>display: inline-flex;</code>.</p>
+<h2><a id="justifycontent_horizontal_4"></a><code>justify-content:</code> horizontal</h2>
 <ul>
-<li><code>flex-start</code> group items to left (the start) of container</li>
-<li><code>flex-end</code> group items to right of container</li>
-<li><code>center</code> group items in the center of a container</li>
-<li><code>space-between</code> distribute items so first/last are left/right and the rest equally between</li>
-<li><code>space-around</code> distribute and space items equally</li>
+<li><code>flex-start</code> group items to <strong>left</strong> (the start) of container</li>
+<li><code>flex-end</code> group items to <strong>right</strong> of container</li>
+<li><code>center</code> group items in the <strong>center</strong> of a container</li>
+<li><code>space-between</code> <strong>distribute</strong> items: first/last are left/right others are equally between</li>
+<li><code>space-around</code> <strong>distribute</strong> and space items <strong>evenly</strong></li>
 </ul>
-<h2><a href="#align-items-and-align-self" aria-hidden="true" class="anchor" id="user-content-align-items-and-align-self"></a><code>align-items:</code> and <code>align-self:</code></h2>
+<h2><a id="alignitems_and_alignself_vertical_12"></a><code>align-items:</code> and <code>align-self:</code> vertical</h2>
 <ul>
 <li><code>flex-start</code> across top</li>
 <li><code>flex-end</code> across bottom</li>
@@ -34,31 +32,34 @@
 <li><code>baseline</code> across baseline</li>
 <li><code>stretch</code> space items or stretch item to fill</li>
 </ul>
-<h2><a href="#flex-direction" aria-hidden="true" class="anchor" id="user-content-flex-direction"></a><code>flex-direction:</code></h2>
+<h2><a id="flexdirection_order_20"></a><code>flex-direction:</code> order</h2>
 <ul>
-<li><code>row</code> left to right</li>
-<li><code>row-reverse</code> right to left</li>
-<li><code>column</code> top to bottom</li>
-<li><code>column-reverse</code> bottom to top</li>
+<li><code>row</code> flow left to right</li>
+<li><code>row-reverse</code> flow right to left</li>
+<li><code>column</code> stack top to bottom</li>
+<li><code>column-reverse</code> stack bottom to top</li>
 </ul>
-<h2><a href="#example" aria-hidden="true" class="anchor" id="user-content-example"></a>Example</h2>
-<div class="highlight highlight-source-css"><pre>    <span class="pl-e">.my-class</span> {
-      <span class="pl-c1"><span class="pl-c1">display</span></span>: <span class="pl-c1">flex</span>;
-      <span class="pl-c1"><span class="pl-c1">justify-content</span></span>: <span class="pl-c1">space-around</span>;
-      <span class="pl-c1"><span class="pl-c1">align-items</span></span>: <span class="pl-c1">flex-start</span>;
-      <span class="pl-c1"><span class="pl-c1">flex-direction</span></span>: <span class="pl-c1">column</span>;
-    }</pre></div>
-  <ul>
-    <li>Try the online CSS game <a href="http://www.flexboxdefense.com/">Flexbox Defence</a></li>
-    
-    <li><a href="https://bocoup.com/blog/dive-into-flexbox">Dive Into Flexbox (Greg Smith)</a></li>
-    
-    <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox (Chris Coyier)</a></li>
-    
-    <li><a href="http://caniuse.com/#feat=flexbox">CanIuse: see flexbox browser support (IE11 bugs)</a></li>
-  </ul>
+<h2><a id="Example_27"></a>Example</h2>
+<pre><code class="language-css"><span class="hljs-class">.my-class</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">display</span>:<span class="hljs-value"> flex</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">justify-content</span>:<span class="hljs-value"> space-around</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">align-items</span>:<span class="hljs-value"> flex-start</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">flex-direction</span>:<span class="hljs-value"> column</span></span>;
+}</span>
+</code></pre>
+<hr>
+<h2><a id="References_40"></a>References</h2>
+<ul>
+<li>CSS game: <a href="http://www.flexboxdefense.com/">Flexbox Defence</a></li>
+<li><a href="https://bocoup.com/blog/dive-into-flexbox">Dive Into Flexbox (Greg Smith)</a></li>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox (Chris Coyier)</a></li>
+<li><a href="http://caniuse.com/#feat=flexbox">CanIuse: see flexbox browser support (IE11 bugs)</a></li>
+</ul>
+<h2><a id="Source_code_for_this_cheatsheet_47"></a>Source code for this cheatsheet</h2>
+<ul>
+<li><a href="https://github.com/DaveEveritt/flexbox-cheatsheet">Markdown source code</a></li>
+<li><a href="https://daveeveritt.github.io/flexbox-cheatsheet/" title="Thanks, Dillinger.io">styled HTML</a></li>
+</ul>
 </article>
-  </div>
-
 <!-- https://www.browserling.com/tools/markdown-to-html -->
 </body></html>

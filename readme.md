@@ -1,24 +1,18 @@
 # CSS Flexbox cheatsheet
 
-Dave Everitt, updated 14 Mar 2018
+The following CSS rules go inside a **flex container** (the element *containing the boxes to be aligned*).
 
-[GitHub repository](https://github.com/DaveEveritt/flexbox-cheatsheet), [styled HTML version](https://daveeveritt.github.io/flexbox-cheatsheet/ "Thanks, Dillinger.io").
+The **flex container** can be either a [block or inline-block](http://www.w3schools.com/cssref/css3_pr_flex.asp) element: `display: flex;` or `display: inline-flex;`.
 
-Flexbox is fully supported in all modern browsers, including Microsoft Edge.
+## `justify-content:` horizontal
 
-## Flexbox basics, as simple as possible
+- `flex-start` group items to **left** (the start) of container
+- `flex-end` group items to **right** of container
+- `center` group items in the **center** of a container
+- `space-between` **distribute** items: first/last are left/right others are equally between
+- `space-around` **distribute** and space items **evenly**
 
-The following CSS rules go inside a **flex container** (the element *containing the boxes to be aligned*). The **flex container** can be either a block or inline-block—[`display: flex;` or `display: inline-flex;`](http://www.w3schools.com/cssref/css3_pr_flex.asp)—element.
-
-## `justify-content:`
-
-- `flex-start` group items to left (the start) of container
-- `flex-end` group items to right of container
-- `center` group items in the center of a container
-- `space-between` distribute items so first/last are left/right and the rest equally between
-- `space-around` distribute and space items equally
-
-## `align-items:` and `align-self:`
+## `align-items:` and `align-self:` vertical
 
 - `flex-start` across top
 - `flex-end` across bottom
@@ -26,27 +20,34 @@ The following CSS rules go inside a **flex container** (the element *containing 
 - `baseline` across baseline
 - `stretch` space items or stretch item to fill
 
-## `flex-direction:`
+## `flex-direction:` order
 
-- `row` left to right
-- `row-reverse` right to left
-- `column` top to bottom
-- `column-reverse` bottom to top
+- `row` flow left to right
+- `row-reverse` flow right to left
+- `column` stack top to bottom
+- `column-reverse` stack bottom to top
 
 ## Example
 
 ```css
-    .my-class {
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-      flex-direction: column;
-    }
+.my-class {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
 ```
 
-## Recommended
+---
 
-- Try the online CSS game [Flexbox Defence](http://www.flexboxdefense.com/)
+## References
+
+- CSS game: [Flexbox Defence](http://www.flexboxdefense.com/)
 - [Dive Into Flexbox (Greg Smith)](https://bocoup.com/blog/dive-into-flexbox)
 - [A Complete Guide to Flexbox (Chris Coyier)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [CanIuse: see flexbox browser support (IE11 bugs)](http://caniuse.com/#feat=flexbox)
+
+## Source code for this cheatsheet
+
+- [Markdown source code](https://github.com/DaveEveritt/flexbox-cheatsheet)
+- [styled HTML](https://daveeveritt.github.io/flexbox-cheatsheet/ "Thanks, Dillinger.io")

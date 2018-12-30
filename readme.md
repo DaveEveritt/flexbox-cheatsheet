@@ -27,6 +27,11 @@ The **flex container** can be either a [block or inline-block](http://www.w3scho
 - `column` stack top to bottom
 - `column-reverse` stack bottom to top
 
+## `flex-wrap:` row wrapping
+- `nowrap` default value
+- `wrap` wrap below at narrower widths
+- `wrap-reverse` reverse rows, keep item order
+
 ## Example
 
 ```css

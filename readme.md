@@ -1,8 +1,10 @@
 # CSS Flexbox cheatsheet
 
-The following CSS rules go inside a **flex container** (the element *containing the boxes to be aligned*).
+These CSS rules go inside a **flex container** (the element *containing the boxes to be aligned*).
 
-The **flex container** can be either a [block or inline-block](http://www.w3schools.com/cssref/css3_pr_flex.asp) element: `display: flex;` or `display: inline-flex;`.
+The **flex container** can be a [block or an inline-block](http://www.w3schools.com/cssref/css3_pr_flex.asp) element: `display: flex;` or `display: inline-flex;`.
+
+The properties with their possible values are a summary of the most-used:
 
 ## `justify-content:` horizontal
 

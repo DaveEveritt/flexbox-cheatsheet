@@ -4,7 +4,7 @@ These CSS rules go inside a **flex container** (the element *containing the boxe
 
 The **flex container** can be a [block or an inline-block](http://www.w3schools.com/cssref/css3_pr_flex.asp) element: `display: flex;` or `display: inline-flex;`.
 
-The properties with their possible values are a summary of the most-used:
+The **properties** with their possible **values** are a summary of the most-used:
 
 ## `justify-content:` horizontal
 
